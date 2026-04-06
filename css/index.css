@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #363636 0%, #ffffff 100%);
+    background-color: #f8f9fa;
+    color: #212529;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,40 +15,133 @@ body {
 
 /* Header/Top Menu */
 .top-menu {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 5px 20px;
+    background-color: #007bff;
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    height: 50px;
-    width: auto;
-}
-
-.links {
+.Links {
     display: flex;
     gap: 30px;
 }
 
-.links a {
+.Links a {
     color: white;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     transition: color 0.3s ease;
 }
 
-.links a:hover {
-    color: #242424;
+.Links a:hover {
+    color: #e9ecef;
 }
 
-.login-btn {
-    background-color: #272727;
+/* Hero Section */
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: #28a745;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#contact-form button {
+    align-self: center;
+}
+
+#response {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
