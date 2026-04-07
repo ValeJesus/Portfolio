@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f5e3ae;
     color: #212529;
     min-height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body {
 
 /* Header/Top Menu */
 .top-menu {
-    background-color: #007bff;
+    background-color:#4e5861;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ body {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #698aa8;
 }
 
 .hero p {
@@ -64,7 +64,7 @@ body {
 }
 
 .btn {
-    background-color: #28a745;
+    background-color: #a6ccc1;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -74,20 +74,20 @@ body {
 }
 
 .btn:hover {
-    background-color: #218838;
+    background-color: #758d86;
 }
 
 /* Contact Section */
 .contact {
     padding: 50px 20px;
-    background-color: #ffffff;
+    background-color:#fff5d6;
     text-align: center;
 }
 
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #007bff;
+    color: #698aa8;
 }
 
 #contact-form {
@@ -140,8 +140,8 @@ footer {
 }
 
 .social-links a:hover {
-    color: #007bff;
-}
+    color: #f8e8b6;
+
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
